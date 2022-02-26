@@ -28,7 +28,7 @@ x = binarySearch(b, 3)
 
 
 def jumpSearch(a, v):
-	m = jumpBlock = len(a)//2
+	#m = jumpBlock = len(a)//2
 	# devise a formula for optimal value of jump block to achieve least traversal
 	res = -1
 	l = len(a)

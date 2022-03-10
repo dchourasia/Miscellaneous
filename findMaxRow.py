@@ -10,6 +10,6 @@ def findMaxRow(m, num):
       	 return max_row_indices
       	 
 print(findMaxRow(mat, 1))
-      	 
+print('I have found the max row')
       	 
       	 

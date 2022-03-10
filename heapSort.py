@@ -40,6 +40,7 @@ def buildHeap(tree):
 	#this loops over all the non-leaf nodes
 	for x in range(n//2 - 1, -1, -1):
 		heapify(tree, x)
+        print(x)
 		
 def heapsort(tree):
 	n = len(tree)

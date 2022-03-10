@@ -31,6 +31,7 @@ def heapify(tree, x):
 		tree[x], tree[largest] = tree[largest], tree[x]
 		#this recurses over all the children
 		heapify(tree, largest)
+        print(largest)
 	
 
 

@@ -12,3 +12,4 @@ def getFibonaci(m):
 	return f
 	
 print(getFibonaci(25))
+print('done')

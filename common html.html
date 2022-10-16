@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SAPI Execution Report</title>
+		<style>
+			table {
+				border: 2px solid black;
+			}
+			td, td, th{
+				border: 2px solid black;
+				width: 130px;
+			}
+			#header {
+				margin:0;
+				padding: 14px 0 0 5px;
+				width: 255px;
+				height: 55px;
+				text-align: center;
+				font: bold 22px Arial, Helvetica, sans-serif;
+				background-color:#FFDAB9;
+			}
+			#pass{
+				font: bold 14px Arial, Helvetica, sans-serif;;
+				color:green;
+				text-align: center;
+			}
+			#fail{
+				font: bold 14px Arial, Helvetica, sans-serif;;
+				color:red;
+				text-align: center;
+			}
+			#total{
+				font: bold 14px Arial, Helvetica, sans-serif;;
+				color:blue;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<table>
+			<tr rowspan='2'>
+				<td colspan='2' id='header'><a href='__REPORT_URL__'>SAPI Execution Report</a></td>
+			</tr>
+			<tr>
+				<th>Status</th>
+				<th>Count</th>
+			</tr>
+			<tr>
+				<td id='pass'>Pass</td>
+				<td id='pass'><a href='__REPORT_URL__&result=pass' style='text-decoration:none'>&nbsp;&nbsp;__PASS_COUNT__&nbsp;&nbsp;</a></td>
+			</tr>
+			<tr>
+				<td id='fail'>Fail</td>
+				<td id='fail'><a href='__REPORT_URL__&result=fail' style='text-decoration:none'>&nbsp;&nbsp;__FAIL_COUNT__&nbsp;&nbsp;</a></td>
+			</tr>
+			<tr>
+				<td id='total'>Total</td>
+				<td id='total'><a href='__REPORT_URL__' style='text-decoration:none'>&nbsp;&nbsp;__TOTAL_COUNT__&nbsp;&nbsp;</a></td>
+			</tr>
+		</table>
+		<br />
+		<br />
+		<p>Thanks and regards<br />
+		Deepak Chourasia</p>
+	</body>
+</html>
